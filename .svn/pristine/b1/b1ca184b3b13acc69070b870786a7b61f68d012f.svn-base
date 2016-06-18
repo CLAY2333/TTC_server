@@ -1,0 +1,49 @@
+<?php
+
+class erron {
+    const ERROR_UNKNOWN = -1;
+    const ERROR_NO_ERROR = 0;
+    const ERROR_MEMCACHED_ERROR = 1;
+    const ERROR_DBSERVER_ERROR = 2;
+    const ERROR_REDIS_ERROR = 3;
+    const ERROR_LOGIN_FAILD = 4;
+    const ERROR_SAVE_FILE_ERROR = 5;
+    const ERROR_REGISTER_ERROR = 6;
+    const ERROR_U_NEED_LOGIN = 7;
+    const ERROR_FILE_TYPE_ERROR = 8;
+    const ERROR_FILE_SIZE_ERROR = 9;
+    const ERROR_MAIL_SYSTEM_ERROR = 10;
+    const ERROR_EMAIL_REGULAR_ERROR = 11;
+    const ERROR_VERIFY_CODE_ERROR = 12;
+	const ERROR_NO_ADVIMG = 13;
+    const ERROR_NEWSHOP_ERROR = 14;
+    const ERROR_PHONENUMBER_ERROR=15;
+    const ERROR_EXIST_ERROR=16;
+    const ERROR_NOTEXIST_ERROR=17;
+    const ERROR_MUCHADDRESS_ERROR=18;
+    const ERROR_TOKEN_ERROR = 19;
+}
+
+class err_des {
+    const ERROR_UNKNOWN = "系统错误";
+    const ERROR_NO_ERROR = "成功";
+    const ERROR_MEMCACHED_ERROR = "缓存机制出错";
+    const ERROR_DBSERVER_ERROR = "数据库服务器出错";
+    const ERROR_REDIS_ERROR = "redis缓存机制出错";
+    const ERROR_LOGIN_FAILD = "登录失败";
+    const ERROR_SAVE_FILE_ERROR = "保存图片出错";
+    const ERROR_REGISTER_ERROR = "注册失败";
+    const ERROR_U_NEED_LOGIN = "请先登录";
+    const ERROR_FILE_TYPE_ERROR = "文件类型出错";
+    const ERROR_FILE_SIZE_ERROR = "文件大小出错";
+    const ERROR_MAIL_SYSTEM_ERROR = "邮件系统出错";
+    const ERROR_EMAIL_REGULAR_ERROR = "邮件格式错误";
+    const ERROR_VERIFY_CODE_ERROR = "验证码错误";
+	const ERROR_NO_ADVIMG = "No advertising information";
+    const ERROR_NEWSHOP_ERROR = "账号已经有入驻店铺";
+    const ERROR_PHONENUMBER_ERROR="电话号码格式错误";
+    const ERROR_EXIST_ERROR="数据在数据库中已经存在";
+    const ERROR_NOTEXIST_ERROR="数据在服务器不存在";
+    const ERROR_MUCHADDRESS_ERROR="收货地址过多";
+    CONST ERROR_TOKEN_ERROR = "token error";
+}

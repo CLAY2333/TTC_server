@@ -1,0 +1,41 @@
+﻿function querypassaudit(count) {
+	$.post(
+		"/manager/queryauditpassall",
+		{pagecount : count},
+		function(data){
+			var json = eval('(' + data + ')');
+			$("#allshop").html("");
+			if(json.value[0] == null ){
+				$("#allshop").append($('<p>暂时没有店铺</p>'));
+				//$("#allshop").attr("height", "300px");
+			}
+			$('#pagecount').text(json.value[1].pagecount);
+			$('#totalpage').text(json.value[1].totalpage);
+			pagecount = json.value[1].pagecount;
+			$.each(json.value[0],function(idx, item){
+				var table = $('<div class="block"><div class="navbar navbar-inner block-header"><div class="muted pull-left">审核通过店铺</div></div><div class="block-content collapse in"><div class="span12"><table class="table"><tbody><tr><td>店铺名称</td><td id="shop_name">' + item.shop_name + '</td><td>店铺编号</td><td id="id">' + item.id + '</td></tr><tr><td>联系方式</td><td id="phone_number">' + item.phone_number + '</td><td>联系人</td><td id="host_name">' + item.host_name + '</td></tr><tr><td>店铺地址</td><td id="address" colspan="3">' + 'longitude:' + item.longitude + '     latitude:' + item.latitude + '</td></tr><tr><td colspan="4"><button type="button" class="btn btn-large btn-block show" data="' + item.id + '">点击进入详细</button></td></tr></tbody></table></div></div></div>');
+				$("#allshop").append(table);
+			});
+		$("#allshop").delegate(".show","click",function(){
+				window.location.href="/manager/shopbyid?id=" + $(this).attr("data");
+			});
+		}
+	);
+}
+
+var pagecount = 1;
+querypassaudit(pagecount);
+
+$('#pre').click(function(){
+	if(pagecount<2){
+		return false;
+	}
+	querypassaudit(pagecount*1-1);
+});
+
+$('#next').click(function(){
+	if(pagecount >= $('#totalpage').text()){
+		return false;
+	}
+	querypassaudit(pagecount*1+1);
+});

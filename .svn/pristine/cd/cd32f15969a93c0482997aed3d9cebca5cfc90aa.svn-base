@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head id="Head1" runat="server"> 
+    <title>无标题页</title> 
+</head> 
+<body> 
+    <form id="Form1" action="http://localhost/index.php/admanage/get_url" method="post" enctype="multipart/form-data" > 
+        <div style="text-align: center">
+            填写广告信息<hr style="size: 50%" />
+        </div> 
+        <div style="text-align: left">
+            跳转url：<input name="url" type="text" />
+            <br /> 
+            上传照片：<input id="File1" type="file" name="icon" /><br /> 
+            <br /> 
+            <input type="submit" value="提交" /> 
+            <input type="reset" value="重置" />
+        </div> 
+    </form> 
+</body> 
+</html>

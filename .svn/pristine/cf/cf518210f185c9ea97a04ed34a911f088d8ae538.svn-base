@@ -1,0 +1,30 @@
+﻿<head>
+	<meta charset="utf-8">
+	<script src="/tpl/manager/js/ifm_head.js"></script>
+</head>
+	<div class="row-fluid">
+		<div class="panel panel-primary">
+			<div class="panel-heading">管理员信息</div>
+			<div class="panel-body">
+				<div class="block">
+					<div class="navbar navbar-inner block-header">
+						<div class="muted pull-left"></div>
+					</div>
+					<div class="block-content collapse in">
+						<div class="span12">
+							<table class="table">
+								<tbody>
+									<tr><td>用户姓名</td><td id="username"></td></tr>
+									<tr><td>描述</td><td id="d">blabla</td></tr>
+									<tr><td>密码</td><td id="password"></td></tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+<script src="/tpl/manager/vendors/js/jquery.min.js"></script>
+<script src="/tpl/manager/vendors/js/bootstrap.min.js"></script>
+<script src="/tpl/manager/js/admininfo.js"></script>

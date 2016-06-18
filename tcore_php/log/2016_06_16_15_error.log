@@ -1,0 +1,1159 @@
+geohash_distance:Geo | 2016-06-16 15:18:44 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:18:47 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:18:47 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:18:48 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:19:36 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>37</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:19:55 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:20:05 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>37</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:20 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:20 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:20 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:47 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:48 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:48 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:48 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:48 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:22:48 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:23:57 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:23:58 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>
+geohash_distance:Geo | 2016-06-16 15:25:16 | <pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>PDOException</i>)[<i>5</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES)'</font> <i>(length=86)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1045</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\db.php'</font> <i>(length=47)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>9</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PDO'</font> <i>(length=3)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=4)</i>
+              ...
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\action.php'</font> <i>(length=51)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>74</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'__construct'</font> <i>(length=11)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'db'</font> <i>(length=2)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\logic\geohash_distance.php'</font> <i>(length=63)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>38</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'querydb'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'action'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+      3 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\ext\tools.php'</font> <i>(length=50)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>36</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Geo'</font> <i>(length=3)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'geohash_distance'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              ...
+      4 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=4)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'C:\Users\lz\Desktop\server\tcore_php\index.php'</font> <i>(length=46)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'call'</font> <i>(length=4)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'errorInfo' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; PDOException: SQLSTATE[HY000] [1045] Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password: YES) in C:\Users\lz\Desktop\server\tcore_php\ext\db.php on line &lt;i&gt;9&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Stack&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;center&#39; bgcolor=&#39;#eeeeec&#39;&gt;#&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#eeeeec&#39;&gt;Time&lt;/th&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#ee'...</font> <i>(length=2501)</i>
+</pre>

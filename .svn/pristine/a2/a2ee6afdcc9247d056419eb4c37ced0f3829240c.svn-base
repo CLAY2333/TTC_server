@@ -1,0 +1,14 @@
+﻿<head>
+	<meta charset="utf-8">
+	<script src="/tpl/manager/js/ifm_head.js"></script>
+</head>
+	<div class="row-fluid">
+		<div class="panel panel-primary">
+			<div class="panel-heading">现有店铺</div>
+			<div id="allshop" class="panel-body">
+			</div>
+		</div>
+	</div>
+<script src="/tpl/manager/vendors/js/jquery.min.js"></script>
+<script src="/tpl/manager/vendors/js/bootstrap.min.js"></script>
+<script src="/tpl/manager/js/shop.js"></script>

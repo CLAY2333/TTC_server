@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Signin</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/tpl/manager/vendors/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+	<link href="/tpl/manager/css/signin.css" rel="stylesheet">
+    <link href="/tpl/manager/css/styles.css" rel="stylesheet"> 
+  </head>
+
+  <body>
+	<br/><br/><br/><br/><br/><br/><br/>
+    <div class="container">
+
+      <form class="form-signin" method="post" action="/manager/login">
+        <h2 class="form-signin-heading">登陆</h2>
+        <input type="text" id="username" class="form-control" placeholder="username" name="username" required autofocus>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required><br/><br/>
+		<button class="btn btn-lg btn-primary btn-block" id="register" type="button" onclick="registerinfo()">注册</button>
+        <button class="btn btn-lg btn-primary btn-block" id="login" type="submit">登陆</button>
+      </form>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+    </div> 
+	<footer>
+	<p>This test built for <a href="#">exam</a> by <a href="#">zhang</a>.</p>
+	<p>
+		<a href="#">Back to top</a>
+	</p>
+	</footer>  
+  </body>
+</html>
+<script src="/tpl/manager/vendors/jquery.min.js"></script>
+<script>
+/*
+	$("#login").click(function(){
+		$.post(
+			"",
+			{
+				username : $("#username").val(),
+				passwd : $("#password").val()
+			},
+			function(json){
+				if(json[0] == 1){
+					var id = json.value.id;
+					var token = json.value.token;
+					window.location.href = "index.html?id=" + id + "&token=" +  token;
+				}
+				alert("用户名或密码错误");
+				return false;
+			}
+		)
+	});
+	*/
+	function registerinfo(){
+		alert(":)注册新管理账号或者忘记密码请联系管理人员!!");
+	
+	};
+</script>
+

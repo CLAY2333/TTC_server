@@ -1,0 +1,110 @@
+﻿<head>
+	<meta charset="utf-8">
+	<script src="/tpl/manager/js/ifm_head.js"></script>
+</head>
+	<div class="row-fluid">
+		<div class="panel panel-primary">
+			<div class="panel-heading">管理员信息</div>
+			<div class="panel-body">
+				<div class="block">
+					<div class="navbar navbar-inner block-header">
+						<div class="muted pull-left">店铺信息</div>
+					</div>
+					<div class="block-content collapse in">
+						<div class="span12">
+							<span>店铺介绍，营业时间，菜品信息</span>
+							<!--"type"	"goods_id"	"goods_pic"	"goods_name"	"speci_number"	"speci_name1"	"goods_price1"	"speci_name2"	"goods_price2"	"goods_content"	"note"	"goods_state"-->
+							<table class="table">
+								<tbody>
+									<th>
+										<td>名称</td>
+										<td>图片</td>
+										<td>类型</td>
+										<td>状态</td>
+										<td>价格</td>
+										<td>备注</td>
+										<td>库存</td>
+										<td>规格名称</td>
+									</th>
+									<tr data = "goods_id">
+										<td>店铺名称</td><td id="shop_name"></td><td>店铺编号</td><td id="id"></td>
+									</tr>
+									<tr>
+										<td>联系方式</td><td id="phone_number"></td><td>联系人</td><td id="host_name"></td>
+									</tr>
+									<tr>
+										<td>店铺地址</td><td id="address" colspan="3"></td>
+									</tr>
+									<tr>
+										<td>经营范围</td><td id="mange_range"></td><td>店铺类型</td><td id="shop_type"></td>
+									</tr>
+									<tr>
+										<td>配送方式</td><td id="deliver_type"></td><td>税率设置</td><td id="rate"></td>
+									</tr>
+									<tr>
+										<td>收款银行</td><td id="bank"></td><td>银行账户</td><td id="account"></td>
+									</tr>
+									<tr>
+										<td>店铺门脸</td><td id=""><img id="imgoutdoor"/></td><td>店铺环境</td><td><img id="imgindoor"/></td>
+									</tr>
+									
+									<tr>
+										<td>餐饮执照</td><td><img id="imgbusiness_licence"/></td><td>餐饮服务许可证</td><td ><img id="imgserver_licence"/></td>
+									</tr>
+									<tr>
+										<td>其他资质证书</td><td><img id="imgother_licence"/></td><td colspan="2">申请次数<span id="checked"></span></td>
+									</tr>
+								</tbody>
+							</table>
+							<div id="checkedbtn">
+								<button id="fail" type="button" class="btn btn-large btn-block">预览店铺</button>
+								<button id="fail" type="button" class="btn btn-large btn-block">店铺付费信息管理</button>
+								<button id="fail" type="button" class="btn btn-large btn-block">查看店铺接受的点评</button>
+								<button id="pass" type="button" class="btn btn-large btn-block">强制关闭店铺(慎用)</button>
+								<button id="fail" type="button" class="btn btn-large btn-block">修改店铺信息</button>
+								<button id="fail" type="button" class="btn btn-large btn-block">查看对账单</button>
+								<button id="fail" type="button" class="btn btn-large btn-block">查看交易记录</button>
+								<button id="fail" type="button" class="btn btn-large btn-block">发送消息给店家</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+<script src="/tpl/manager/vendors/js/jquery.min.js"></script>
+<script src="/tpl/manager/vendors/js/bootstrap.min.js"></script>
+<script src="/tpl/manager/js/shopinfo.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

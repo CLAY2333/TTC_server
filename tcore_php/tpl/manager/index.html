@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="/tpl/manager/vendors/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/tpl/manager/vendors/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="/tpl/manager/vendors/css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+		
+		<link href="/tpl/manager/css/styles.css" rel="stylesheet">
+		
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		<script>
+			var username = 'zhang';
+		</script>
+		<style>
+		#nav {
+			position: fixed;
+			width: 500px;
+			margin: 30px 20px 0;
+		};
+		</style>
+		
+	
+	<body data-spy="scroll" data-target=".bs-docs-sidebar">
+	<div class="navbar navbar-fixed-top">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">TaoTaoChi</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" id="username" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> 大T <i class="caret"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="alink" tabindex="-1" href="/tpl/manager/admininfo.html">用户信息</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a tabindex="-1" href="login.html">注销</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+						<input type="hidden" name="id" id="id" value="111"/>
+						<input type="hidden" name="token" id="token" value="aaa"/>
+                        <ul class="nav">
+                            <li class="dropdown">
+                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Content <i class="caret"></i>
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a tabindex="-1" href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Custom Pages</a>
+                                    </li>
+                                    <li>
+                                        <a tabindex="-1" href="#">Calendar</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a tabindex="-1" href="#">FAQ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        </div>
+		<div class="container-fluid">
+	<div class="row">
+				<div class="span3">
+								<ul id="nav" class="nav nav-list bs-docs-sidenav nav-collapse">
+										<li class="active"><a>管理</a></li>
+									<div class="accordion" id="accordion">
+										<li>
+											<div class="accordion-group">
+												<div class="accordion-heading">
+													<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion > li" href="#collapse1">
+													<i class="icon-chevron-right"></i>店铺审核
+													</a>
+												</div>
+												<div id="collapse1" class="accordion-body collapse in">
+													<div class="accordion-inner">
+													<ul class="nav nav-list">
+														<li>
+															<a class="alink" href="/tpl/manager/audit.html">新申请待审核店铺</a>
+														</li> 
+														<li>
+															<a class="alink" href="/tpl/manager/auditfail.html">返回复审中的店铺</a>
+														</li>
+														<li>
+															<a class="alink" href="/tpl/manager/auditpass.html">完成审核的店铺</a>
+														</li>
+													</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="accordion-group">
+												<div class="accordion-heading">
+													<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion > li" href="#collapse2">
+													<i class="icon-chevron-right"></i>管理店铺信息
+													</a>
+												</div>
+												<div id="collapse2" class="accordion-body collapse">
+													<div class="accordion-inner">
+													<ul class="nav nav-list">
+														<li>
+															<a class="alink" href="/tpl/manager/shop.html">查看现有店铺</a>
+														</li> 
+													</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+																				<li>
+											<div class="accordion-group">
+												<div class="accordion-heading">
+													<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion > li" href="#collapse3">
+													<i class="icon-chevron-right"></i>广告/公告管理
+													</a>
+												</div>
+												<div id="collapse3" class="accordion-body collapse">
+													<div class="accordion-inner">
+													<ul class="nav nav-list">
+														<li>
+															<a class="alink" href="/tpl/manager/admanage.html">首页面管理</a>
+														</li> 
+														<li>
+															<a href="/tpl/manager/auditfail.html">觅食页面广告管理</a>
+														</li>
+														<li>
+															<a href="/tpl/manager/auditpass.html">觅食页面文章管理</a>
+														</li>
+													</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="accordion-group">
+												<div class="accordion-heading">
+													<a class="accordion-toggle alink" data-toggle="collapse" data-parent="#accordion > li" href="">
+														账号与数据
+													</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="accordion-group">
+												<div class="accordion-heading">
+													<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion > li" href="#collapse5">
+													<i class="icon-chevron-right"></i>活动管理
+													</a>
+												</div>
+												<div id="collapse5" class="accordion-body collapse">
+													<div class="accordion-inner">
+													<ul class="nav nav-list">
+														<li>
+															<a id="test" href="/tpl/manager/audit.html">新建活动</a>
+														</li> 
+														<li>
+															<a href="/tpl/manager/auditfail.html">管理现有活动</a>
+														</li>
+														<li>
+															<a href="/tpl/manager/auditpass.html">已结束的活动</a>
+														</li>
+													</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+																				<li>
+											<div class="accordion-group">
+												<div class="accordion-heading">
+													<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion > li" href="#collapse6">
+													<i class="icon-chevron-right"></i>消息管理
+													</a>
+												</div>
+												<div id="collapse6" class="accordion-body collapse">
+													<div class="accordion-inner">
+													<ul class="nav nav-list">
+														<li>
+															<a id="test" href="/tpl/manager/audit.html">发送消息</a>
+														</li> 
+														<li>
+															<a href="/tpl/manager/auditfail.html">新收到的息</a>
+														</li>
+														<li>
+															<a href="/tpl/manager/auditpass.html">查看历史消息</a>
+														</li>
+													</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="accordion-group">
+												<div class="accordion-heading">
+													<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion > li" href="#collapse7">
+													投诉意见管理
+													</a>
+												</div>
+											</div>
+										</li>
+									</div>
+								</ul>
+				</div>
+		<div class="span10">
+					<div class="row-fluid">
+                        <!--<div class="alert alert-success">
+							<button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <h4>Success</h4>
+                        	欢迎来到淘淘吃后台管理系统</div>-->
+                        	<div class="navbar">
+                            	<div class="navbar-inner" id="breadcrumb">
+									<ul class="breadcrumb">
+									  <li><a class="alink breadcrumblink" href="#">首页</a> <span class="divider">/</span></li>
+									  <li><a id="navt1" ></a> <span class="divider">/</span></li>
+									  <li><a id="navt2" href="/tpl/manager/admininfo.html" class="alink breadcrumblink">用户信息</a></li>
+									</ul>
+                            	</div>
+                        	</div>
+						<iframe id="iframe" src="/tpl/manager/admininfo.html" frameborder="false" scrolling="auto" style="border:none;" height="100%" width="100%"  allowtransparency="true"></iframe>  
+
+					</div>
+		</div>
+	</div>
+	</div>
+	<footer>
+			<p>This test built for <a href="#">exam</a> by <a href="#">zhang</a>.</p>
+			<p>
+				<a href="#">Back to top</a>
+			</p>
+			</footer> 
+	</body>
+</html>
+
+<script src="/tpl/manager/vendors/js/jquery.min.js"></script>
+		<script src="/tpl/manager/vendors/js/bootstrap.min.js"></script>
+		
+		<script src="/tpl/manager/js/index_nav.js"></script>
+		<!---->
+		<script src="/tpl/manager/vendors/js/scripts.js"></script>
+		<link href="/tpl/manager/vendors/css/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
+		<script src="/tpl/manager/vendors/js/jquery.easy-pie-chart.js"></script>
+        <script src="/tpl/manager/vendors/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	</head>

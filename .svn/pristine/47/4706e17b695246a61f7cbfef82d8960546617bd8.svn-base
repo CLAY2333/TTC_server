@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head id="Head1" runat="server"> 
+    <title>无标题页</title> 
+</head> 
+<body> 
+    <form id="Form1" action="http://localhost/index.php/shop/shop" method="post" enctype="multipart/form-data" > 
+        <div style="text-align: center">
+            填写商铺信息<hr style="size: 50%" />
+        </div> 
+        <div style="text-align: left">
+            所在城市：<input name="city" type="text" />
+            <br /> 
+            位置：<input name="location" type="text" />
+            <br /> 
+            详细地址：<input name="address" type="text" /><br /> 
+            <br /> 
+            商户名称：<input name="shop_name" type="text" /><br />
+            商户类型：<input name="shop_type" type="radio" value="m">企业连锁商铺&nbsp;<input name="shop_type" type="radio" value="n">个体经营<br />
+            经营范围：<input name="manage_range" type="radio" value="restaurant" >餐饮&nbsp;<input name="manage_range" type="radio" value="market" >生活超市便利店&nbsp;<input name="manage_range" type="radio" value="drink" >饮料下午茶<br />
+            <br />
+            联系人：<input name="host_name" type="text" /><br />
+            联系电话：<input name="phone_number" type="number" /><br />
+            <br />
+            配送方式：<input name="delivery_type" type="text" /><br />
+            <br />
+            店铺门脸图： <input id="File1" type="file" name="outdoor" /><br />
+            店内环境图：<input id="File2" type="file" name="indoor" /><br />
+            营业执照：<input id="File3" type="file" name="business_licence" /><br />
+            餐饮许可证：<input id="File4" type="file" name="server_licence" /><br />
+            其他证书：<input id="File5" type="file" name="other_licence" /><br /><br />
+            收款账户：<input name="account" type="number" /><br />
+            <input type="submit" value="提交" /> 
+            <input type="reset" value="重置" />
+        </div> 
+    </form> 
+</body> 
+</html>

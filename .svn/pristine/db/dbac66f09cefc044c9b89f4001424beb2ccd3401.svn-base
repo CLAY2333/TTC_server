@@ -1,0 +1,19 @@
+﻿<head>
+	<meta charset="utf-8">
+	<script src="/tpl/manager/js/ifm_head.js"></script>
+</head>
+	<div class="row-fluid">
+		<div class="panel panel-primary">
+			<div class="panel-heading">退回复审商店</div>
+			<div id="allaudit" class="panel-body">
+			</div>
+		</div>
+		<ul class="pager">
+			<li><a id="pre" href="#">上一页</a></li>
+			<li>&nbsp;第<span id="pagecount">1</span>页,共<span id="totalpage">1</span>页&nbsp;</li>
+			<li><a id="next" href="#">下一页</a></li>
+		</ul>
+	</div>
+<script src="/tpl/manager/vendors/js/jquery.min.js"></script>
+<script src="/tpl/manager/vendors/js/bootstrap.min.js"></script>
+<script src="/tpl/manager/js/auditfail.js"></script>
